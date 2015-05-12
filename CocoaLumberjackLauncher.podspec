@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CocoaLumberjackLauncher'
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   s.summary = 'Very simple CocoaLumberjack launcher.'
   s.homepage = 'https://github.com/yusuga/CocoaLumberjackLauncher'
   s.license = 'MIT'
@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   
   s.dependency 'CocoaLumberjack', '~> 2.0.0'
   s.dependency 'LumberjackConsole', '~> 2.4.3'
+  
+  s.deprecated_in_favor_of = 'LumberjackLauncher'
 end
