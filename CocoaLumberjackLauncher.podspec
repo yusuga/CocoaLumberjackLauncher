@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   
   s.dependency 'CocoaLumberjack', '~> 2.0.0'
   s.dependency 'LumberjackConsole', '~> 2.4.3'
+  
+  s.deprecated_in_favor_of = 'LumberjackLauncher'
 end
